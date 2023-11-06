@@ -11,14 +11,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'JR',
+      title: 'URF',
       theme: ThemeData(
         colorScheme:
             // ignore: prefer_const_constructors
             ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 98, 214, 117)),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'JUNIOR'),
+      home: const MyHomePage(title: 'URF HAIR'),
     );
   }
 }
