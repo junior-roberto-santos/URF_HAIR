@@ -1,7 +1,6 @@
 // ignore: depend_on_referenced_packages
 import 'package:flutter/material.dart';
-
-
+import 'package:urf_hair/pages/home_page.dart';
 
 class PaginaInicial extends StatelessWidget {
   const PaginaInicial({super.key});
@@ -14,50 +13,47 @@ class PaginaInicial extends StatelessWidget {
       backgroundColor: Color.fromARGB(255, 239, 238, 238),
       body: Column(
         children: [
-           
-           Image.asset(
-            'lib/IMG_URF/URFHAIR.jpg.jpeg',
-            
-            
-            
-            ), 
-
-            const SizedBox(height: 48),
-            Text(
-              'Soluções para Estética',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 30,
-              ),
-              ),
-            
-            
-            const SizedBox(height: 100),
-            Container(               decoration: BoxDecoration(
-                color: Colors.black,
-                borderRadius: BorderRadius.circular(35),
+        Image.asset(
+          'lib/IMG_URF/URFHAIR.jpg.jpeg',
+        ),
+        const SizedBox(height: 48),
+        Text(
+          'Soluções para Estética',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 30,
+          ),
+        ),
+        const SizedBox(height: 100),
+        GestureDetector(
+          onTap: () => Navigator.push(
+            context, MaterialPageRoute(
+              builder: (context) => HomePage(),
           
-              ),
-                padding: const EdgeInsets.all(10),
-                  width: 350, 
-                  height: 65,            
-                  child: const Center(
-                    child: const Text(
-                    'Acesse já', 
-                        style: TextStyle(
-                        color: Colors.white,
-                        
-                        
-                        
-                      ),
-                   ),
-                 
+          ),
+          
+          ) ,
+          child: Container(
+            decoration: BoxDecoration(
+              color: Colors.black,
+              borderRadius: BorderRadius.circular(35),
+            ),
+            padding: const EdgeInsets.all(10),
+            width: 350,
+            height: 65,
+            child: const Center(
+              child: const Text(
+                'Acesse já',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20,
                 ),
-            
-         )
-      ]
-      
-      ),
+              ),
+            ),
+          ),
+        )
+      ]),
     );
   }
 }
