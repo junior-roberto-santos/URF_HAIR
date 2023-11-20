@@ -11,21 +11,34 @@ class MyBottomNavBar extends StatelessWidget {
         color: Colors.grey[400],
         activeColor: Colors.black,
         tabActiveBorder: Border.all(color: Colors.white),
-        tabBackgroundColor: Colors.white,
+        tabBackgroundColor: Color.fromARGB(255, 190, 239, 215),
         mainAxisAlignment: MainAxisAlignment.center,
+        tabBorderRadius: 25,
         tabs: [
           GButton(
             icon: Icons.home,
-            text: 'Serviços',
+            text: 'Perfil',
 
+                  
+          ),
+
+            GButton(
+            icon: Icons.home_repair_service_sharp,
+            text: 'Serviços', 
                   
           ),
              GButton(
             icon: Icons.shopping_bag_rounded,
-            text: 'Agendamento',
+            text: 'Revisao', 
+                  
+          ),
+             GButton(
+            icon: Icons.assignment_add,
+            text: 'Agendamento',  
 
                   
           ),
+         
         ],
       
       ),

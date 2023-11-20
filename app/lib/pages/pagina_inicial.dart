@@ -36,22 +36,22 @@ class PaginaInicial extends StatelessWidget {
           child: Container(
             decoration: BoxDecoration(
               color: Colors.black,
-              borderRadius: BorderRadius.circular(35),
+              borderRadius: BorderRadius.circular(25),
             ),
             padding: const EdgeInsets.all(10),
-            width: 350,
-            height: 65,
+            width: 250,
+            height: 60,
             child: const Center(
               child: const Text(
-                'Acesse já',
-                style: TextStyle(
+                'Acesse já!',
+                  style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                   fontSize: 20,
                 ),
               ),
             ),
-          ),
+          ),          
         )
       ]),
     );
