@@ -23,13 +23,13 @@ class MyBottomNavBar extends StatelessWidget {
                   
           ),
              GButton(
-                icon: Icons.shopping_bag_rounded,
-                text: 'Revisao', 
+                icon: Icons.assignment_add,
+                text: 'Agendamento', 
                   
           ),
              GButton(
-            icon: Icons.assignment_add,
-            text: 'Agendamento',  
+            icon: Icons.check_box_rounded,
+            text: 'Confirmação',  
 
                   
           ),

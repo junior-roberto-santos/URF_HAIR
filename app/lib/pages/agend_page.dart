@@ -5,6 +5,6 @@ class AgendPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text('Agendamento'),);
+    return Center(child: Text('Concluido'),);
   }
 }

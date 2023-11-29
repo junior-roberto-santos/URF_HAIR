@@ -10,7 +10,7 @@ class PaginaInicial extends StatelessWidget {
     // ignore: prefer_const_constructors
     return Scaffold(
       // ignore: prefer_const_constructors
-      backgroundColor: Color.fromARGB(255, 223, 239, 232),
+      backgroundColor: Color.fromARGB(255, 233, 242, 238),
       body: Column(
         children: [
         Image.asset(
@@ -20,7 +20,7 @@ class PaginaInicial extends StatelessWidget {
         Text(
           'Soluções para Estética',
           style: TextStyle(
-            fontWeight: FontWeight.bold,
+            fontWeight: FontWeight.w500,
             fontSize: 30,
           ),
         ),
@@ -46,7 +46,7 @@ class PaginaInicial extends StatelessWidget {
                 'Acesse já!',
                   style: TextStyle(
                   color: Colors.white,
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w500,
                   fontSize: 20,
                 ),
               ),

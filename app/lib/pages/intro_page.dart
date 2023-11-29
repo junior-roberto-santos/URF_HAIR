@@ -82,7 +82,7 @@ class _HomePageState extends State<HomePage>
           child: ListTile(
             leading: Icon(Icons.person_pin_sharp, color: Colors.black,),
             title: Text('Perfil', style: TextStyle(
-              fontSize: 20, fontWeight: FontWeight.bold),),
+              fontSize: 20, fontWeight: FontWeight.w500),),
           ),
         ),
 
@@ -91,7 +91,7 @@ class _HomePageState extends State<HomePage>
           child: ListTile(
             leading: Icon(Icons.assignment_add, color: Colors.black,),
             title: Text('Agendamentos', style: TextStyle(
-              fontSize: 20, fontWeight: FontWeight.bold),),
+              fontSize: 20, fontWeight: FontWeight.w500),),
           ),
         ),
 
@@ -100,7 +100,7 @@ class _HomePageState extends State<HomePage>
           child: ListTile(
             leading: Icon(Icons.messenger, color: Colors.black,),
             title: Text('Mensagens', style: TextStyle(
-              fontSize: 20, fontWeight: FontWeight.bold),),
+              fontSize: 18, fontWeight: FontWeight.w500),),
           ),
         ),
 
@@ -109,7 +109,7 @@ class _HomePageState extends State<HomePage>
           child: ListTile(
             leading: Icon(Icons.settings, color: Colors.black,),
             title: Text('Configuração', style: TextStyle(
-              fontSize: 20, fontWeight: FontWeight.bold),),
+              fontSize: 20, fontWeight: FontWeight.w500),),
           ),
         ),
 
@@ -118,7 +118,7 @@ class _HomePageState extends State<HomePage>
           child: ListTile(
             leading: Icon(Icons.book_outlined, color: Colors.black,),
             title: Text('Sobre a URF', style: TextStyle(
-              fontSize: 20, fontWeight: FontWeight.bold),),
+              fontSize: 18, fontWeight: FontWeight.w500),),
           ),
         ),
 
@@ -128,7 +128,7 @@ class _HomePageState extends State<HomePage>
           child: ListTile(
             leading: Icon(Icons.privacy_tip_sharp, color: Colors.black,),
             title: Text('Politíca de Privacidade', style: TextStyle(
-              fontSize: 18, fontWeight: FontWeight.bold),),
+              fontSize: 18, fontWeight: FontWeight.w500),),
           ),
         ),
 
@@ -137,7 +137,7 @@ class _HomePageState extends State<HomePage>
           child: ListTile(
             leading: Icon(Icons.help_center, color: Colors.black,),
             title: Text('Suporte', style: TextStyle(
-              fontSize: 20, fontWeight: FontWeight.bold),),
+              fontSize: 18, fontWeight: FontWeight.w500),),
           ),
         ),
 
@@ -146,7 +146,7 @@ class _HomePageState extends State<HomePage>
           child: ListTile(
             leading: Icon(Icons.logout_outlined, color : Colors.black,),
             title: Text('Sair', style: TextStyle(
-              fontSize: 20, fontWeight: FontWeight.bold),),
+              fontSize: 18, fontWeight: FontWeight.w500),),
           ),
         )
 
