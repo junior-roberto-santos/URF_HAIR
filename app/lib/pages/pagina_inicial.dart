@@ -1,6 +1,6 @@
 // ignore: depend_on_referenced_packages
 import 'package:flutter/material.dart';
-import 'package:urf_hair/pages/home_page.dart';
+import 'package:urf_hair/pages/intro_page.dart';
 
 class PaginaInicial extends StatelessWidget {
   const PaginaInicial({super.key});
@@ -10,7 +10,7 @@ class PaginaInicial extends StatelessWidget {
     // ignore: prefer_const_constructors
     return Scaffold(
       // ignore: prefer_const_constructors
-      backgroundColor: Color.fromARGB(255, 239, 238, 238),
+      backgroundColor: Color.fromARGB(255, 223, 239, 232),
       body: Column(
         children: [
         Image.asset(
