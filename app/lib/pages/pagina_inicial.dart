@@ -18,7 +18,7 @@ class PaginaInicial extends StatelessWidget {
         ),
         const SizedBox(height: 48),
         Text(
-          'Soluções para Estética',
+          'Soluções Estética',
           style: TextStyle(
             fontWeight: FontWeight.w500,
             fontSize: 30,
