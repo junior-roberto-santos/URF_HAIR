@@ -55,13 +55,13 @@ class _ServicePageState extends State<ServicePage> {
       SizedBox(height: 10),
       Expanded(
         child: ListView.builder(
-          itemCount: 5,
+          itemCount: 3,
           scrollDirection: Axis.horizontal,
           itemBuilder: (context, index) {
             Shop shop = Shop(
               name: 'Corte',
               price: '59,99',
-              imagePath: ('lib/IMG_URF/URFHAIR.jpg.jpeg'),
+              imagePath: ('lib/IMG_URF/barber1.png'),
               description: 'Qualidade e Excelência',
             );
 

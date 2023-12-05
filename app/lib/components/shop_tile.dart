@@ -12,9 +12,10 @@ class ShopTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.only(left: 25),
-      width: 300,
-      decoration: BoxDecoration(
-        color: Colors.grey[1000],
+      width: 400,
+        decoration: BoxDecoration(
+        color: Colors.grey[50],
+        borderRadius: BorderRadius.circular(20),
         
 
       ),
