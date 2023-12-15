@@ -64,9 +64,9 @@ class _HomePageState extends State<HomePage>
       ),
 
       drawer: Drawer(
-        backgroundColor: Color.fromARGB(255, 211, 235, 224),
+        backgroundColor: Color.fromARGB(255, 229, 248, 240),
         child: Column(children: [
-         DrawerHeader(child: Image.asset('lib/IMG_URF/URFHAIR.jpg.jpeg',)
+         DrawerHeader(child: Image.asset('lib/IMG_URF/URFHAIR2.png',)
          
          ),
          

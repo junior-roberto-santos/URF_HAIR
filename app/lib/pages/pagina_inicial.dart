@@ -10,32 +10,30 @@ class PaginaInicial extends StatelessWidget {
     // ignore: prefer_const_constructors
     return Scaffold(
       // ignore: prefer_const_constructors
-      backgroundColor: Color.fromARGB(255, 233, 242, 238),
-      body: Column(
-        children: [
+      backgroundColor: Color.fromARGB(255, 232, 250, 242),
+      body: Column(children: [
         Image.asset(
-          'lib/IMG_URF/URFHAIR.jpg.jpeg',
+          'lib/IMG_URF/URFHAIR2.png',
         ),
         const SizedBox(height: 48),
         Text(
-          'Soluções Estética',
+          '"Sejam bem vindos!"',
           style: TextStyle(
             fontWeight: FontWeight.w500,
-            fontSize: 30,
+            fontSize: 25,
           ),
         ),
         const SizedBox(height: 100),
         GestureDetector(
           onTap: () => Navigator.push(
-            context, MaterialPageRoute(
+            context,
+            MaterialPageRoute(
               builder: (context) => HomePage(),
-          
+            ),
           ),
-          
-          ) ,
           child: Container(
             decoration: BoxDecoration(
-              color: Colors.black,
+              color: const Color.fromARGB(255, 31, 31, 31),
               borderRadius: BorderRadius.circular(25),
             ),
             padding: const EdgeInsets.all(10),
@@ -44,14 +42,14 @@ class PaginaInicial extends StatelessWidget {
             child: const Center(
               child: const Text(
                 'Acesse já!',
-                  style: TextStyle(
+                style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.w500,
                   fontSize: 20,
                 ),
               ),
             ),
-          ),          
+          ),
         )
       ]),
     );
